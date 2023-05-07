@@ -4,7 +4,7 @@
 
 Die voorpuntkode van die webwerf is oopbron, welkom om te help om die vertaling te optimaliseer
 
-* [front-end kode](https://github.com/xxai-art/web)
+* [Frontend-kode](https://github.com/xxai-art/web)
 * [Taalpakke vir die webwerf as geheel](https://github.com/xxai-art/web/tree/main/i18n)
 * [Taalpakke vir aanmeldmodules](https://github.com/wacpkg/user/tree/main/ui.i18n)
 * [Webwerf Meertalige Dokumentasie](https://github.com/xxai-doc)
