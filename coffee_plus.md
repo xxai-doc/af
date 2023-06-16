@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , voeg 'n paar kenmerke by op grond van coffeescript-sintaksis, sien [coffee_plus](./coffee_plus.md) .
 
-* veranderlike verklaar
+## veranderlike verklaar
 
 ```
 + var1, var2
 ```
 
-* verklaring etiket
+## verklaring etiket
 
 `:$` is vir gebruik met [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* vinnige invoer
+## vinnige invoer
 
 ```
 > zx/globals:
