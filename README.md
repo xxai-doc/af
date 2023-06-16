@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
+Dit word aanbeveel om eers nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) te installeer, en dan `direnv allow` nadat jy die gids binnegegaan het ( [die .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) sal outomaties uitgevoer word nadat jy die gids binnegegaan het).
+
 Die betekenis is: Chinese vertaling na Japannees, Koreaans, Engels, Engelse vertaling na alle ander tale. As jy net Chinees en Engels wil ondersteun, kan jy net skryf `zh: en` .
 
-Deel van die webwerf-kode is oopbron, welkom om te help om die vertaling te optimaliseer.
-
-## front-end kode
+Die betekenis is: Chinese vertaling na Japannees, Koreaans, Engels, Engelse vertaling na alle ander tale. As jy net Chinees en Engels wil ondersteun, kan jy net skryf `zh: en` .
 
 * [front-end kode](https://github.com/xxai-art/web)
 * [Taalpakke vir die webwerf as geheel](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@ Bou op die volgende 3 projekte
 
 ### Dokumentvertalingsoutomatiseringsinstruksies
 
-Sien bewaarplek [xxai-art/doc](https://github.com/xxai-art/doc)
+Sien kodebewaarplek [xxai-art/doc](https://github.com/xxai-art/doc)
 
 Dit word aanbeveel om eers nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) te installeer, en dan `direnv allow` nadat jy die gids binnegegaan het ( [die .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) sal outomaties uitgevoer word nadat jy die gids binnegegaan het).
 
-Om té groot pakhuise wat in honderde tale vertaal word te vermy, het ek 'n aparte kodepakhuis vir elke taal geskep en 'n organisasie geskep om hierdie pakhuis te stoor
+Om die groot kodebasis wat in honderde tale vertaal word te vermy, het ek 'n aparte kodebasis vir elke taal geskep en 'n organisasie geskep om die kodebasis te stoor
 
-Deur die omgewingsveranderlike `GITHUB_ACCESS_TOKEN` te stel en dan [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) te laat loop, sal die pakhuis outomaties geskep word.
+Deur die omgewingsveranderlike `GITHUB_ACCESS_TOKEN` te stel en dan [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) te laat loop, sal die kodebewaarplek outomaties geskep word.
 
-U kan dit natuurlik ook in 'n pakhuis plaas.
+U kan dit natuurlik ook in 'n kodebasis plaas.
 
 Vertaling skrif verwysing [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Google API word gebruik vir gratis vertaling. As jy nie toegang tot Google kan k
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-Die vertalingskrip sal 'n vertaalkas in `.i18n` -gids genereer, kontroleer dit asseblief met `git status` en voeg dit by die kodebewaarplek om herhaalde vertalings te vermy.
+Die vertalingskrip sal 'n vertaalde kas in `.i18n` -gids genereer, kontroleer dit asseblief met `git status` en voeg dit by die kodebewaarplek om herhaalde vertalings te vermy.
+
+Voer asseblief `bunx i18n` uit elke keer as jy die vertaling wysig om die kas op te dateer.
+
+As die oorspronklike teks en die vertaling op dieselfde tyd gewysig word, sal die kas verwar word, so as jy wil wysig, kan jy net een wysig, en dan `bunx i18n` hardloop om die kas op te dateer.
