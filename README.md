@@ -1,6 +1,6 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Die betekenis is: Chinese vertaling na Japannees, Koreaans, Engels, Engelse vertaling na alle ander tale. As jy net Chinees en Engels wil ondersteun, kan jy net skryf `zh: en` .
 
 Deel van die webwerf-kode is oopbron, welkom om te help om die vertaling te optimaliseer.
 
@@ -33,7 +33,7 @@ Bou op die volgende 3 projekte
 
 Sien bewaarplek [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Dit word aanbeveel om eers nodejs, [direnv](https://direnv.net) en [bun](https://github.com/oven-sh/bun) te installeer, en dan `direnv allow` uit te voer nadat u die gids binnegegaan het.
+Dit word aanbeveel om eers nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) te installeer, en dan `direnv allow` nadat jy die gids binnegegaan het ( [die .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) sal outomaties uitgevoer word nadat jy die gids binnegegaan het).
 
 Om té groot pakhuise wat in honderde tale vertaal word te vermy, het ek 'n aparte kodepakhuis vir elke taal geskep en 'n organisasie geskep om hierdie pakhuis te stoor
 
