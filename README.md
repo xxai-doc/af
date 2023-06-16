@@ -17,14 +17,14 @@ Die voorste programmeertaal is [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plu
 
 Bou op die volgende 3 projekte
 
-### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
 
-Die markdown-sjabloon, met die agtervoegsel `.mdt` , kan verwys na eksterne lêers met 'n sintaksis soortgelyk aan `<+ ./coffee_plus/import.js>` .
+  Die agtervoegsel is `.mdt` , jy kan die sintaksis soortgelyk aan `<+ ./coffee_plus/import.js>` gebruik om na eksterne lêers te verwys, en afmerking genereer met die agtervoegsel `.md` .
 
-[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
 
-Markdown-vertaling sal nie kodes en skakels vertaal nie, en sal vertaalde sinne kas. As die vertaling gewysig word, maar die oorspronklike teks is nie gewysig nie, sal dit nie die wysiging van die vertaling oorskryf as u dit weer uitvoer nie.
+  Markdown-vertaling sal nie kodes en skakels vertaal nie, en sal vertaalde sinne kas. As die vertaling gewysig word, maar die oorspronklike teks is nie gewysig nie, sal dit nie die wysiging van die vertaling oorskryf as u dit weer uitvoer nie.
 
-[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
 
-Taallêers vir die vertaling `yaml` gegenereerde webwerwe.
+  Taallêers vir die vertaling `yaml` gegenereerde webwerwe.
