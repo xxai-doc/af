@@ -61,9 +61,7 @@ en:
 zh: ja ko en
 ```
 
-Die betekenis is:
-
-Chinees word in Japannees, Koreaans en Engels vertaal, en Engels word in alle ander tale vertaal. As jy net Chinees en Engels wil ondersteun, kan jy net skryf `zh: en` .
+Die betekenis is: Chinese vertaling na Japannees, Koreaans, Engels, Engelse vertaling na alle ander tale. As jy net Chinees en Engels wil ondersteun, kan jy net skryf `zh: en` .
 
 Die laaste is [gen.README.coffee](https://github.com/xxai-art/doc/blob/main/gen.README.coffee) , wat die inhoud tussen die hooftitel en die eerste ondertitel van elke taal se `README.md` onttrek om 'n inskrywing `README.md` te genereer. Die kode is baie eenvoudig, jy kan self daarna kyk.
 
